@@ -53,7 +53,7 @@ class ShoppingPage:
         # checkout
         browser.element('#checkout').click()
         # fill info
-        browser.element('#first-name').type('Sara')
+        browser.element('#first-name').type('Alma')
         browser.element('#last-name').type('Test')
         browser.element('#postal-code').type('123456789')
         browser.element('#continue').click()
